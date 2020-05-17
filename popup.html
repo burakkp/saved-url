@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta name="google-site-verification" content="V9pgpcIX0vzVc1VMmzi0Dld5rVkhRqGIXcH0613jbK0" />
+  </head>
+  <body>
+    <div class="main-container">
+       <div class="header-container">
+          <div class="form-group">
+            <input type="text" class="find-url-input" placeholder="Find URL" id="itemInput" >
+          </div>
+          <div class="menu-wrapper">
+            <span class="menu-btn icon-Menu">
+              
+            </span>
+            <div class="menu-cnt hide">
+              <div class="menu-wrapper">
+                <!-- <div class="lang-cnt">
+                  <span class="lang-select">Active Language:</span>
+                  <span class="lang-name active selected">
+                    <span class="lang-title">English</span>
+                  </span>
+                  <span class="lang-dropdown hide">
+                    <span class="lang-name" id="english">English</span>
+                    <span class="lang-name" id="dutch">Dutch</span>
+                    <span class="lang-name" id="turkish">Turkish</span>
+                  </span>
+                </div> -->
+              </div>
+              <div class="menu-footer">
+
+                <div class="export-import-cnt">
+                  <div id="exportCSV" class="export-btn"><span class="icon-download2"></span> Export</div>
+                  <div id="importCSV" class="import-btn">
+                    <span class="btn import-label"><span class="icon-upload2"></span> Import</span>
+                    <input id="ImportInput" />
+                  </div>
+                </div>
+                <div class="payment-cnt">
+                  <style>.bmc-button img{height: 25px !important;width: 25px !important;margin-bottom: 1px !important;box-shadow: none !important;border: none !important;vertical-align: middle !important;}.bmc-button{padding: 7px 10px 7px 10px !important;line-height: 25px !important;height:43px !important;min-width:155px !important;text-decoration: none !important;display:inline-flex !important;color:#ffffff !important;background-color:#FF5F5F !important;border-radius: 5px !important;border: 1px solid transparent !important;padding: 7px 10px 7px 10px !important;font-size: 20px !important;letter-spacing:-0.08px !important;margin: 0 auto !important;font-family:'Lato', sans-serif !important;-webkit-box-sizing: border-box !important;box-sizing: border-box !important;-o-transition: 0.3s all linear !important;-webkit-transition: 0.3s all linear !important;-moz-transition: 0.3s all linear !important;-ms-transition: 0.3s all linear !important;transition: 0.3s all linear !important;}.bmc-button:hover, .bmc-button:active, .bmc-button:focus {text-decoration: none !important;opacity: 0.85 !important;color:#ffffff !important;}</style><link href="https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext" rel="stylesheet"><a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/9oGfnVK"><img src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" alt="Buy me a coffee"><span style="margin-left:5px;font-size:16px !important;">Buy me a coffee</span></a>
+                </div>
+                <div class="contact-btn">
+                  <a href="mailto:info@burakkp.com?subject=SavedURL Contact Mail" target="_blank"><span class="icon-mail2"></span> Contact</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="btn-wrapper">
+            <div class="list-count-wrapper">
+              <span>Total list item:</span>
+              <div id="listCount" class="list-count">0</div>
+            </div>
+            <button id="addButton" class="btn btn-add">Save URL</button>
+          </div>
+       </div>
+      
+        <div class="list-container">
+
+          <ul id="savedList"></ul>
+
+        </div>
+
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
